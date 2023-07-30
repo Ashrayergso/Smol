@@ -1,21 +1,9 @@
-Shared Dependencies:
+The shared dependencies between the "readme.md" and "requirements.txt" files are:
 
-1. **Data Models:** Crew, Ship, Assignment, Schedule, ShipSailingSchedule, PositionAndContractLength, ShipCrewAllowance, CertificateTypesAndExpiry. These are shared across backend model files and frontend files that fetch and display these models.
-
-2. **Function Names:** assignCrewToShips, fetchCrew, fetchShips, createAssignment, handleErrors. These are shared across various frontend files where they are defined and used.
-
-3. **Message Names:** CREW_FETCH_SUCCESS, SHIP_FETCH_SUCCESS, ASSIGNMENT_SUCCESS, ASSIGNMENT_FAILURE. These are shared across frontend files where they are emitted and handled.
-
-4. **React Component Names:** Navbar, CrewList, CrewDetail, ShipList, ShipDetail, AssignmentList, AssignmentDetail, AssignmentCreate, AssignmentEdit, AnalyticsDashboard, CrewProfile, CrewProfileEdit, Alert. These are shared across frontend files where they are defined and used.
-
-5. **CSS File Names:** main.css, navbar.css, list.css, detail.css, dashboard.css, profile.css, alert.css. These are shared across frontend files where they are imported for styling.
-
-6. **Serializer Names:** CrewSerializer, ShipSerializer, AssignmentSerializer, ScheduleSerializer, ShipSailingScheduleSerializer, PositionAndContractLengthSerializer, ShipCrewAllowanceSerializer, CertificateTypesAndExpirySerializer. These are shared across backend files where they are defined and used.
-
-7. **View Names:** CrewView, ShipView, AssignmentView, ScheduleView, ShipSailingScheduleView, PositionAndContractLengthView, ShipCrewAllowanceView, CertificateTypesAndExpiryView. These are shared across backend files where they are defined and used.
-
-8. **URL Patterns:** These are shared across backend files where they are defined and used.
-
-9. **Settings and Server Configuration:** settings.py, wsgi.py, asgi.py. These are shared across backend files where they are imported and used.
-
-10. **DOM Element IDs:** These are shared across frontend files where they are used for interactivity. The exact IDs would depend on the specific implementation and are not specified in the prompt.
+1. Project Name: Both files will refer to the same project, so they share the project name.
+2. Project Description: The readme file will contain a description of the project, which may also be referenced in the requirements.txt file.
+3. Dependencies: The requirements.txt file will list the project's dependencies, which may also be mentioned in the readme file.
+4. Activation Instructions: These will be included in the readme file and may reference certain dependencies listed in the requirements.txt file.
+5. Step-by-step Instructions: These will be included in the readme file and may reference certain dependencies listed in the requirements.txt file.
+6. Repo URL: Both files will likely reference the URL of the repo.
+7. Version Information: Both files may contain information about the version of the project or its dependencies.
