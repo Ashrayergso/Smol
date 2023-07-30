@@ -1,37 +1,19 @@
 # Project Name
 
-This is the README for the Project Name. 
+## Description
+This is a brief description of the project. More details about the project can be found in the repo.
 
-## Installation
+## Requirements
+The dependencies required for this project are listed in the `requirements.txt` file in this repo.
 
-1. Clone the repository
-```
-git clone https://github.com/username/projectname.git
-```
-2. Navigate to the project directory
-```
-cd projectname
-```
-3. Install the dependencies listed in the requirements.txt file
-```
-pip install -r requirements.txt
-```
+## Activation Instructions
+1. Clone the repo using the URL: `<Repo URL>`
+2. Navigate to the project directory.
+3. Install the dependencies using the command: `pip install -r requirements.txt`
 
-## Activation
+## Step-by-step Instructions
+1. After activating the project, run the main file using the command: `python main.py`
+2. Follow the on-screen instructions to interact with the project.
 
-Follow these steps to activate the project:
-
-1. Step 1
-2. Step 2
-3. Step 3
-
-## Version
-
-Current version of the project is 1.0.0
-
-## Authors
-
-- Author 1
-- Author 2
-
-For any additional questions or concerns, please contact the authors.
+## Version Information
+The current version of the project is 1.0.0. For more information about the versions of the dependencies, refer to the `requirements.txt` file.
