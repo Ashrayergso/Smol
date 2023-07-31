@@ -1,4 +1,3 @@
-```typescript
 // src/utils/handleErrors.ts
 
 export const handleErrors = (response: Response) => {
@@ -7,4 +6,3 @@ export const handleErrors = (response: Response) => {
     }
     return response;
 };
-```

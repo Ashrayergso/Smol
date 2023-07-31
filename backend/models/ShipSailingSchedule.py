@@ -1,4 +1,4 @@
-```python
+
 from django.db import models
 from .Ship import Ship
 
@@ -10,4 +10,3 @@ class ShipSailingSchedule(models.Model):
 
     def __str__(self):
         return f"{self.ship.name} - {self.destination}"
-```

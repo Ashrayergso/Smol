@@ -1,4 +1,4 @@
-```python
+
 from django.db import models
 
 class Crew(models.Model):
@@ -13,4 +13,3 @@ class Crew(models.Model):
 
     def __str__(self):
         return self.name
-```

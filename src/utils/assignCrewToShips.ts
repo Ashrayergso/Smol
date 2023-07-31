@@ -1,4 +1,3 @@
-```typescript
 import { Crew } from '../models/Crew';
 import { Ship } from '../models/Ship';
 import { Assignment } from '../models/Assignment';

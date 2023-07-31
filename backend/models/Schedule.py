@@ -1,4 +1,4 @@
-```python
+
 from django.db import models
 from .Crew import Crew
 from .Ship import Ship
@@ -11,4 +11,3 @@ class Schedule(models.Model):
 
     def __str__(self):
         return f"{self.crew.name} - {self.ship.name} - {self.start_date} to {self.end_date}"
-```

@@ -1,4 +1,4 @@
-```python
+
 from django.db import models
 
 class PositionAndContractLength(models.Model):
@@ -7,4 +7,3 @@ class PositionAndContractLength(models.Model):
 
     def __str__(self):
         return self.position
-```

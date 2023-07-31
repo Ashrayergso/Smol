@@ -1,4 +1,4 @@
-```python
+
 """
 Django settings for Crew Scheduling App project.
 
@@ -139,4 +139,3 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ]
 }
-```

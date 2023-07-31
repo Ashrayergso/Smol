@@ -1,4 +1,3 @@
-```python
 from django.urls import path
 from .views import CrewView, ShipView, AssignmentView, ScheduleView, ShipSailingScheduleView, PositionAndContractLengthView, ShipCrewAllowanceView, CertificateTypesAndExpiryView
 
@@ -12,4 +11,3 @@ urlpatterns = [
     path('shipcrewallowance/', ShipCrewAllowanceView.as_view(), name='shipcrewallowance'),
     path('certificatetypesandexpiry/', CertificateTypesAndExpiryView.as_view(), name='certificatetypesandexpiry'),
 ]
-```

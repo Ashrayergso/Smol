@@ -1,4 +1,4 @@
-```python
+
 from django.db import models
 from .Ship import Ship
 from .Crew import Crew
@@ -13,4 +13,3 @@ class ShipCrewAllowance(models.Model):
 
     def __str__(self):
         return f'{self.ship.name} - {self.crew.name}: {self.allowance}'
-```

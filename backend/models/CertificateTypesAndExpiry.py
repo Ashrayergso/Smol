@@ -1,4 +1,4 @@
-```python
+
 from django.db import models
 from .Crew import Crew
 
@@ -9,4 +9,3 @@ class CertificateTypesAndExpiry(models.Model):
 
     def __str__(self):
         return f'{self.certificate_type} for {self.crew.name} expires on {self.expiry_date}'
-```

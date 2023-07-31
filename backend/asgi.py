@@ -1,4 +1,3 @@
-```python
 """
 ASGI config for crew_scheduling_app project.
 
@@ -15,4 +14,3 @@ from django.core.asgi import get_asgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crew_scheduling_app.settings')
 
 application = get_asgi_application()
-```
